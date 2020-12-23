@@ -1,0 +1,1 @@
+/usr/bin/cc -no-pie -g   CMakeFiles/caEx3.dir/main.c.o CMakeFiles/caEx3.dir/pstring.s.o CMakeFiles/caEx3.dir/run_main.s.o CMakeFiles/caEx3.dir/func_select.s.o  -o caEx3 
