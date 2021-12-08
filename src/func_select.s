@@ -87,9 +87,9 @@ run_func:
 
     # set arguments for first call of replaceChar
     leaq    (%rsp), %r8
-    movzbq    (%r8), %rdx   # move new char to third argument
+    movzbq  (%r8), %rdx     # move new char to third argument
     leaq    16(%rsp), %r8
-    movzbq    (%r8), %rsi   # move old char to second argument
+    movzbq  (%r8), %rsi     # move old char to second argument
     movq    %r13, %rdi      # move second psrtring address to first argument
 
     call    replaceChar
@@ -98,9 +98,9 @@ run_func:
 
     # set arguments for second call of replaceChar
     leaq    (%rsp), %r8
-    movzbq    (%r8), %rdx   # move new char to third argument
+    movzbq  (%r8), %rdx     # move new char to third argument
     leaq    16(%rsp), %r8
-    movzbq    (%r8), %rsi   # move old char to second argument
+    movzbq  (%r8), %rsi     # move old char to second argument
     movq    %r12, %rdi      # move first pstring address to first argument
 
     call    replaceChar
