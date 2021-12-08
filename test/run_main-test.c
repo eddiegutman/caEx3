@@ -3,6 +3,8 @@
 
 void run_main() {
 
+ //   void run_func(int n, Pstring* p1);
+    void run_func(int n, Pstring* p1, Pstring* p2);
 	Pstring p1;
 	Pstring p2;
 	int len;
